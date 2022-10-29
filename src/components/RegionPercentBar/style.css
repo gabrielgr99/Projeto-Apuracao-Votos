@@ -1,0 +1,14 @@
+#region_bars {
+  transform: rotate(90deg);
+}
+
+#region_bars h3 {
+  transform: rotate(-90deg)
+}
+
+#region_bars #percent span {
+  font-size: 17px;
+  /* font-weight: normal; */
+  transform: rotate(-40deg);
+  padding-bottom: 7px;
+}

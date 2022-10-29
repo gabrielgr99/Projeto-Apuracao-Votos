@@ -1,0 +1,26 @@
+#bar_component {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#percent {
+  display: flex;
+  justify-content: space-between;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#bar, #bar div {
+  background-color: rgb(18, 156, 18);
+  height: 30px;
+  border-radius: 5px;
+}
+
+#bar div {
+  background-color: rgb(255, 43, 43);
+  border-radius: 5px 0 0 5px;
+}

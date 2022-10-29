@@ -1,0 +1,10 @@
+#candidate {
+  display: flex;
+}
+
+#candidate ul {
+  list-style: none;
+  font-size: 20px;
+  padding-left: 10px;
+  line-height: 30px;
+}
