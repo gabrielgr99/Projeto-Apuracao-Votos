@@ -1,14 +1,38 @@
-#region_bars {
+#region-bars {
   transform: rotate(90deg);
+  position: relative;
+  left: 165px;
+  height: max-content;
+  width: 380px;
 }
 
-#region_bars h3 {
-  transform: rotate(-90deg)
+#region-bars h3 {
+  transform: rotate(-90deg);
 }
 
-#region_bars #percent span {
+#region-title {
+  position: absolute;
+  left: -30px;
+  width: 100px;
+  transform: rotate(-90deg);
+}
+
+#region-bars #percent span {
   font-size: 17px;
-  /* font-weight: normal; */
   transform: rotate(-40deg);
   padding-bottom: 7px;
+}
+
+#region-bars #bar, #region-bars #bar div {
+  background-color: rgb(227, 255, 227);
+  border: 3px solid rgb(18, 156, 18);
+  height: 30px;
+  border-radius: 5px;
+}
+
+#region-bars #bar div {
+  border: 3px solid rgb(255, 43, 43);
+  background-color: rgb(255, 227, 227);
+  transform: translate(-3px, -3px);
+  border-radius: 5px 0 0 5px;
 }

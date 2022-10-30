@@ -3,6 +3,7 @@ import CountryPercentBar from "../../components/CountryPercentBar";
 import RegionPercentBar from "../../components/RegionPercentBar";
 import "./style.css";
 import liveIcon from "../../images/live.png";
+import RegionButton from "../../components/RegionButton";
 
 export default function Main() {
   return (
@@ -22,13 +23,16 @@ export default function Main() {
         </div>
         <div id="region">
           <h3>Região</h3>
-          <div id="region_bars">
+          <div id="region-bars">
             <RegionPercentBar region='norte' />
             <RegionPercentBar region='nordeste'/>
             <RegionPercentBar region='centro-oeste'/>
             <RegionPercentBar region='sul'/>
             <RegionPercentBar region='sudeste'/>
           </div>
+        </div>
+        <div>
+          <RegionButton />
         </div>
       </article>
       <footer></footer>

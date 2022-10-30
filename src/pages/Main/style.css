@@ -8,7 +8,7 @@
 }
 
 body {
-  color: rgb(20, 20, 20);
+  color: rgb(36, 36, 36);
 }
 
 #logo {
@@ -44,13 +44,23 @@ article {
 }
 
 #region {
-  width: 635px;
-  height: 300px;
+  display: flex;
+  width: 900px;
+  height: max-content;
 }
 
 #region h3 {
-  /* position: relative; */
-  /* transform: translateX(200px); */
-  transform: translateY(130px);
+  transform: translate(130px, 120px);
   font-size: 30px;
+  height: max-content;
+}
+
+#region-bottom {
+  background-color: #c5c6ff;
+  /* border: 3px solid #000277; */
+  border-radius: 5px;
+  padding: 5px;
+  width: 900px;
+  height: max-content;
+  text-align: center;
 }

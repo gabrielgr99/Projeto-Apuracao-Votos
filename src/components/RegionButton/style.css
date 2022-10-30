@@ -1,0 +1,16 @@
+#region-bottom button {
+  font-size: 20px;
+  font-weight: bold;
+  width: 50px;
+  height: 50px;
+  color: #fff;
+  background-color: #000277;
+  border-radius: 5px;
+  border: 2px solid #fff;
+  margin: 1px;
+  cursor: pointer;
+}
+
+#region-bottom button:hover {
+  background-color: #6567cf;
+}

@@ -10,11 +10,14 @@ export default function RegionPercentBar({region}) {
   const totalPercent = (widthBar / (percentC1 + percentC2)) * percentC1;
 
   return (
-    <PercentBar
-      percentC1={ percentC1 }
-      percentC2={ percentC2 }
-      totalPercent={ totalPercent }
-      widthBar={ widthBar }
-    />
+    <div>
+      <h4 id="region-title">{ region }</h4>
+      <PercentBar
+        percentC1={ percentC1 }
+        percentC2={ percentC2 }
+        totalPercent={ totalPercent }
+        widthBar={ widthBar }
+      />
+    </div>
   )
 }
