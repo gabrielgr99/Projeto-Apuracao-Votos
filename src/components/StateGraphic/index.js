@@ -5,7 +5,7 @@ import am5themes_Animated from '@amcharts/amcharts5/themes/Animated';
 import './style.css';
 import { useLayoutEffect } from 'react';
 
-export default function StateGraphic() {
+export default function StateGraphic({initials}) {
   const { candidatos } = data.return.data;
 
   useLayoutEffect(() => {
@@ -29,14 +29,14 @@ export default function StateGraphic() {
     const data = [
       {
         name: candidatos[0].candidato,
-        steps: Number(candidatos[0].total_votos),
+        steps: Number(candidatos[0].votos_estados[initials].total_votos),
         pictureSettings: {
           src: candidatos[0].foto
         }
       },
       {
         name: candidatos[1].candidato,
-        steps: Number(candidatos[1].total_votos),
+        steps: Number(candidatos[1].votos_estados[initials].total_votos),
         pictureSettings: {
           src: candidatos[1].foto
         }
@@ -214,11 +214,11 @@ export default function StateGraphic() {
     return () => {
       root.dispose();
     };
-  }, [])
+  })
 
   return (
     <div>
-      <div id="chartdiv" style={{ width: "100%", height: "500px" }}></div>
+      <div id="chartdiv"></div>
     </div>
   )
 }

@@ -5,7 +5,7 @@ export default function Candidate({name}) {
   const candidato = data.return.data.candidatos.find((candidato) => candidato.candidato === name);
 
   return (
-    <div id='candidate'>
+    <div className='candidate'>
       <img src={ candidato.foto } height='150px' alt='candidate' />
       <ul>
         <li>Nome: {candidato.candidato}</li>

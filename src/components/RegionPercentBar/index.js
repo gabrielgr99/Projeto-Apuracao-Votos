@@ -11,7 +11,7 @@ export default function RegionPercentBar({region}) {
 
   return (
     <div>
-      <h4 id="region-title">{ region }</h4>
+      <h4 className="region-title">{ region }</h4>
       <PercentBar
         percentC1={ percentC1 }
         percentC2={ percentC2 }

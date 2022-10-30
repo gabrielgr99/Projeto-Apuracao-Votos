@@ -10,27 +10,33 @@
   transform: rotate(-90deg);
 }
 
-#region-title {
+.region-title {
   position: absolute;
-  left: -30px;
+  text-align: center;
+  /* bottom: 10px; */
+  right: 0;
   width: 100px;
-  transform: rotate(-90deg);
+  /* transform: translateY(50px); */
+  transform: rotate(-90deg) translate(-47px, 30px);
 }
 
-#region-bars #percent span {
+#region-bars .percent span {
+  position: relative;
   font-size: 17px;
-  transform: rotate(-40deg);
+  transform: rotate(-90deg);
   padding-bottom: 7px;
+  width: 50px;
+  bottom: 5px;
 }
 
-#region-bars #bar, #region-bars #bar div {
+#region-bars .bar, #region-bars .bar div {
   background-color: rgb(227, 255, 227);
   border: 3px solid rgb(18, 156, 18);
   height: 30px;
   border-radius: 5px;
 }
 
-#region-bars #bar div {
+#region-bars .bar div {
   border: 3px solid rgb(255, 43, 43);
   background-color: rgb(255, 227, 227);
   transform: translate(-3px, -3px);
