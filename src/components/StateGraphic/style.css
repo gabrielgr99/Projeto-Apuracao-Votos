@@ -1,5 +1,14 @@
+#state-title {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 40px;
+}
+
 #chartdiv {
   width: 100%;
-  height: 300px;
   margin-top: 50px;
+}
+
+.state {
+  height: 300px;
 }

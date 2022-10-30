@@ -6,6 +6,7 @@ import liveIcon from "../../images/live.png";
 import RegionButton from "../../components/RegionButton";
 
 export default function Main() {
+  const regionNames = ['norte', 'nordeste', 'centro-oeste', 'sul', 'sudeste'];
   return (
     <div>
       <header>
@@ -24,11 +25,7 @@ export default function Main() {
         <div id="region">
           <h3>Região</h3>
           <div id="region-bars">
-            <RegionPercentBar region='norte' />
-            <RegionPercentBar region='nordeste'/>
-            <RegionPercentBar region='centro-oeste'/>
-            <RegionPercentBar region='sul'/>
-            <RegionPercentBar region='sudeste'/>
+            { regionNames.map((name) => <RegionPercentBar region={name} />) }
           </div>
         </div>
         <div>

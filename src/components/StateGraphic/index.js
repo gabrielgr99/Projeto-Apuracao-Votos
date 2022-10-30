@@ -218,7 +218,8 @@ export default function StateGraphic({initials}) {
 
   return (
     <div>
-      <div id="chartdiv"></div>
+      <h3 id="state-title">{candidatos[0].votos_estados[initials].name}</h3>
+      <div id="chartdiv" className="state"></div>
     </div>
   )
 }

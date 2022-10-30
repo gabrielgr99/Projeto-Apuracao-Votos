@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import data from '../../data/apuracao.json';
+import AllStatesGraphic from '../AllStatesGraphic.js';
 import StateGraphic from '../StateGraphic';
 import './style.css'
 
@@ -17,10 +18,13 @@ export default function RegionButton() {
             <button key={initials} onClick={() => setState(initials)}>{initials.toUpperCase()}</button>
           ))
         }
-        <button style={{ width: 'max-content' }} key="todas">TODAS</button>
+        <button style={{ width: 'max-content' }} key="todas" onClick={() => setState('todas')}>TODAS</button>
+      {
+        state !== 'todas' ?
+        <StateGraphic initials={state} /> :
+        <AllStatesGraphic />
+      }
       </div>
-      <h3 id="state-title">{candidatos[0].votos_estados[state].name}</h3>
-      <StateGraphic initials={state} />
     </div>
   )
 }
