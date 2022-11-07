@@ -1,13 +1,13 @@
 import { useState } from 'react';
 import data from '../../data/apuracao.json';
-import AllStatesGraphic from '../AllStatesGraphic.js';
+import AllStatesGraphic from '../AllStatesGraphic';
 import StateGraphic from '../StateGraphic';
 import './style.css'
 
 export default function RegionButton() {
   const { candidatos } = data.return.data;
   const [state, setState] = useState('rr');
-  const { votos_estados } = data.return.data.candidatos[0];
+  const { votos_estados } = candidatos[0];
   const states = Object.keys(votos_estados);
 
   return (

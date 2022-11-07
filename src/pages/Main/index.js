@@ -4,9 +4,11 @@ import RegionPercentBar from "../../components/RegionPercentBar";
 import "./style.css";
 import liveIcon from "../../images/live.png";
 import RegionButton from "../../components/RegionButton";
+import data from '../../data/apuracao.json';
 
 export default function Main() {
   const regionNames = ['norte', 'nordeste', 'centro-oeste', 'sul', 'sudeste'];
+  const { candidatos } = data.return.data;
   return (
     <div>
       <header>
@@ -19,15 +21,17 @@ export default function Main() {
       <article>
         <CountryPercentBar />
         <div id="candidates">
-          <Candidate name='LULA' />
-          <Candidate name='JAIR BOLSONARO' />
+          { candidatos.map((candidate) => <Candidate name={candidate.candidato} />) }
         </div>
+        <hr size="2" width="900px" color="#1d1f96" />
         <div id="region">
           <h3>Região</h3>
           <div id="region-bars">
-            { regionNames.map((name) => <RegionPercentBar region={name} />) }
+            { regionNames.map((name) => <RegionPercentBar region={name} key={name} />) }
           </div>
         </div>
+        <hr size="2" width="900px" color="#1d1f96" />
+        <br />
         <div>
           <RegionButton />
         </div>

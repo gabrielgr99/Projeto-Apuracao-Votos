@@ -4,7 +4,7 @@
   width: 50px;
   height: 50px;
   color: #fff;
-  background-color: #000277;
+  background-color: #1d1f96;
   border-radius: 5px;
   border: 2px solid #fff;
   margin: 1px;
@@ -12,5 +12,6 @@
 }
 
 #region-bottom button:hover {
-  background-color: #6567cf;
+  background-color: #9092ff;
+  transition: 0.2s;
 }

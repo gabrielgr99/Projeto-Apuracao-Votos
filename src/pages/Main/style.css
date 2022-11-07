@@ -19,7 +19,7 @@ body {
   color: #ffffff;
   padding-left: 30px;
   margin-bottom: 30px;
-  background-color: #000277;
+  background-color: #1d1f96;
 }
 
 #logo img {
@@ -56,11 +56,12 @@ article {
 }
 
 #region-bottom {
-  background-color: #c5c6ff;
+  /* background-color: #f8f8ff; */
   /* border: 3px solid #000277; */
-  border-radius: 5px;
+  /* border-radius: 5px; */
   padding: 5px;
   width: 900px;
   height: max-content;
   text-align: center;
+  margin-bottom: 100px;
 }

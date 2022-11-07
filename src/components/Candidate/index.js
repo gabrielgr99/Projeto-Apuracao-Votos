@@ -8,10 +8,9 @@ export default function Candidate({name}) {
     <div className='candidate'>
       <img src={ candidato.foto } height='150px' alt='candidate' />
       <ul>
-        <li>Nome: {candidato.candidato}</li>
-        <li>Partido: {candidato.nome_partido}</li>
-        <li>Número: {candidato.num_candidato}</li>
-        <li>Votos: {candidato.total_votos}</li>
+        <li>{candidato.candidato}</li>
+        <li>{candidato.partido} - {candidato.num_candidato}</li>
+        <li>{Number(candidato.total_votos).toLocaleString()}</li>
         <li>{candidato.votos_percent} %</li>
       </ul>
     </div>
