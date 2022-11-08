@@ -1,0 +1,341 @@
+{
+  "origin": "api",
+  "return": {
+    "data": {
+      "candidatos": [
+        {
+          "situacao": "Eleito",
+          "num_candidato": "13",
+          "nome_partido": "Partido dos Trabalhadores",
+          "foto": "https://master-cnn-candidates-pictures-bucket-102100159208.s3.amazonaws.com/280001607829.jpeg",
+          "posicao": "1",
+          "matematicamente_definido": true,
+          "eleito_mt": true,
+          "votos_estados": {
+            "rr": {
+              "name": "Roraima",
+              "total_votos": "67128",
+              "votos_percent": "23,92"
+            },
+            "zz": {
+              "name": "Exterior",
+              "total_votos": "152905",
+              "votos_percent": "51,28"
+            },
+            "rs": {
+              "name": "Rio Grande do Sul",
+              "total_votos": "2891851",
+              "votos_percent": "43,65"
+            },
+            "df": {
+              "name": "Distrito Federal",
+              "total_votos": "729295",
+              "votos_percent": "41,19"
+            },
+            "pr": {
+              "name": "Paran\u00e1",
+              "total_votos": "2506605",
+              "votos_percent": "37,60"
+            },
+            "sc": {
+              "name": "Santa Catarina",
+              "total_votos": "1351918",
+              "votos_percent": "30,73"
+            },
+            "se": {
+              "name": "Sergipe",
+              "total_votos": "862951",
+              "votos_percent": "67,21"
+            },
+            "ma": {
+              "name": "Maranh\u00e3o",
+              "total_votos": "2668425",
+              "votos_percent": "71,14"
+            },
+            "mg": {
+              "name": "Minas Gerais",
+              "total_votos": "6190960",
+              "votos_percent": "50,20"
+            },
+            "sp": {
+              "name": "S\u00e3o Paulo",
+              "total_votos": "11519882",
+              "votos_percent": "44,76"
+            },
+            "ac": {
+              "name": "Acre",
+              "total_votos": "121566",
+              "votos_percent": "29,70"
+            },
+            "ce": {
+              "name": "Cear\u00e1",
+              "total_votos": "3807891",
+              "votos_percent": "69,97"
+            },
+            "ms": {
+              "name": "Mato Grosso do Sul",
+              "total_votos": "599547",
+              "votos_percent": "40,51"
+            },
+            "mt": {
+              "name": "Mato Grosso",
+              "total_votos": "652786",
+              "votos_percent": "34,92"
+            },
+            "go": {
+              "name": "Goi\u00e1s",
+              "total_votos": "1542115",
+              "votos_percent": "41,29"
+            },
+            "al": {
+              "name": "Alagoas",
+              "total_votos": "976831",
+              "votos_percent": "58,68"
+            },
+            "am": {
+              "name": "Amazonas",
+              "total_votos": "1004991",
+              "votos_percent": "51,10"
+            },
+            "es": {
+              "name": "Esp\u00edrito Santo",
+              "total_votos": "926767",
+              "votos_percent": "41,96"
+            },
+            "ap": {
+              "name": "Amap\u00e1",
+              "total_votos": "189918",
+              "votos_percent": "48,64"
+            },
+            "pa": {
+              "name": "Par\u00e1",
+              "total_votos": "2509084",
+              "votos_percent": "54,75"
+            },
+            "pb": {
+              "name": "Para\u00edba",
+              "total_votos": "1601953",
+              "votos_percent": "66,62"
+            },
+            "pe": {
+              "name": "Pernambuco",
+              "total_votos": "3640933",
+              "votos_percent": "66,93"
+            },
+            "rj": {
+              "name": "Rio de Janeiro",
+              "total_votos": "4156217",
+              "votos_percent": "43,47"
+            },
+            "pi": {
+              "name": "Piau\u00ed",
+              "total_votos": "1551383",
+              "votos_percent": "76,86"
+            },
+            "to": {
+              "name": "Tocantins",
+              "total_votos": "434593",
+              "votos_percent": "51,36"
+            },
+            "rn": {
+              "name": "Rio Grande do Norte",
+              "total_votos": "1326785",
+              "votos_percent": "65,10"
+            },
+            "ro": {
+              "name": "Rond\u00f4nia",
+              "total_votos": "262904",
+              "votos_percent": "29,34"
+            },
+            "ba": {
+              "name": "Bahia",
+              "total_votos": "6097815",
+              "votos_percent": "72,12"
+            }
+          },
+          "total_votos": "60345999",
+          "id": "280001607829",
+          "destinacao_voto": "V\u00e1lido",
+          "candidato": "LULA",
+          "partido": "PT",
+          "votos_regiao": {
+            "norte": "48.97",
+            "centro-oeste": "39.79",
+            "sul": "38.16",
+            "nordeste": "69.34",
+            "sudeste": "45.74"
+          },
+          "votos_percent": "50,90"
+        },
+        {
+          "situacao": "N\u00e3o eleito",
+          "num_candidato": "22",
+          "nome_partido": "Partido Liberal",
+          "foto": "https://master-cnn-candidates-pictures-bucket-102100159208.s3.amazonaws.com/280001618036.jpeg",
+          "posicao": "2",
+          "matematicamente_definido": true,
+          "eleito_mt": false,
+          "votos_estados": {
+            "rr": {
+              "name": "Roraima",
+              "total_votos": "213518",
+              "votos_percent": "76,08"
+            },
+            "zz": {
+              "name": "Exterior",
+              "total_votos": "145264",
+              "votos_percent": "48,72"
+            },
+            "rs": {
+              "name": "Rio Grande do Sul",
+              "total_votos": "3733185",
+              "votos_percent": "56,35"
+            },
+            "df": {
+              "name": "Distrito Federal",
+              "total_votos": "1041331",
+              "votos_percent": "58,81"
+            },
+            "pr": {
+              "name": "Paran\u00e1",
+              "total_votos": "4159343",
+              "votos_percent": "62,40"
+            },
+            "sc": {
+              "name": "Santa Catarina",
+              "total_votos": "3047630",
+              "votos_percent": "69,27"
+            },
+            "se": {
+              "name": "Sergipe",
+              "total_votos": "421086",
+              "votos_percent": "32,79"
+            },
+            "ma": {
+              "name": "Maranh\u00e3o",
+              "total_votos": "1082749",
+              "votos_percent": "28,86"
+            },
+            "mg": {
+              "name": "Minas Gerais",
+              "total_votos": "6141310",
+              "votos_percent": "49,80"
+            },
+            "sp": {
+              "name": "S\u00e3o Paulo",
+              "total_votos": "14216587",
+              "votos_percent": "55,24"
+            },
+            "ac": {
+              "name": "Acre",
+              "total_votos": "287750",
+              "votos_percent": "70,30"
+            },
+            "ce": {
+              "name": "Cear\u00e1",
+              "total_votos": "1634477",
+              "votos_percent": "30,03"
+            },
+            "ms": {
+              "name": "Mato Grosso do Sul",
+              "total_votos": "880606",
+              "votos_percent": "59,49"
+            },
+            "mt": {
+              "name": "Mato Grosso",
+              "total_votos": "1216730",
+              "votos_percent": "65,08"
+            },
+            "go": {
+              "name": "Goi\u00e1s",
+              "total_votos": "2193041",
+              "votos_percent": "58,71"
+            },
+            "al": {
+              "name": "Alagoas",
+              "total_votos": "687827",
+              "votos_percent": "41,32"
+            },
+            "am": {
+              "name": "Amazonas",
+              "total_votos": "961741",
+              "votos_percent": "48,90"
+            },
+            "es": {
+              "name": "Esp\u00edrito Santo",
+              "total_votos": "1282145",
+              "votos_percent": "58,04"
+            },
+            "ap": {
+              "name": "Amap\u00e1",
+              "total_votos": "200547",
+              "votos_percent": "51,36"
+            },
+            "pa": {
+              "name": "Par\u00e1",
+              "total_votos": "2073895",
+              "votos_percent": "45,25"
+            },
+            "pb": {
+              "name": "Para\u00edba",
+              "total_votos": "802502",
+              "votos_percent": "33,38"
+            },
+            "pe": {
+              "name": "Pernambuco",
+              "total_votos": "1798832",
+              "votos_percent": "33,07"
+            },
+            "rj": {
+              "name": "Rio de Janeiro",
+              "total_votos": "5403894",
+              "votos_percent": "56,53"
+            },
+            "pi": {
+              "name": "Piau\u00ed",
+              "total_votos": "467065",
+              "votos_percent": "23,14"
+            },
+            "to": {
+              "name": "Tocantins",
+              "total_votos": "411654",
+              "votos_percent": "48,64"
+            },
+            "rn": {
+              "name": "Rio Grande do Norte",
+              "total_votos": "711381",
+              "votos_percent": "34,90"
+            },
+            "ro": {
+              "name": "Rond\u00f4nia",
+              "total_votos": "633236",
+              "votos_percent": "70,66"
+            },
+            "ba": {
+              "name": "Bahia",
+              "total_votos": "2357028",
+              "votos_percent": "27,88"
+            }
+          },
+          "total_votos": "58206354",
+          "id": "280001618036",
+          "destinacao_voto": "V\u00e1lido",
+          "candidato": "JAIR BOLSONARO",
+          "partido": "PL",
+          "votos_regiao": {
+            "norte": "51.03",
+            "centro-oeste": "60.21",
+            "sul": "61.84",
+            "nordeste": "30.66",
+            "sudeste": "54.26"
+          },
+          "votos_percent": "49,10"
+        }
+      ],
+      "total_paginas": 1,
+      "proxima_pagina": null,
+      "pagina_atual": 1
+    },
+    "message": "Data successfully read!"
+  }
+}

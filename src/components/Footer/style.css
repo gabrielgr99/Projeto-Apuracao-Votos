@@ -1,0 +1,12 @@
+footer {
+  text-align: center;
+  font-style: italic;
+  background-color: #1d1f96;
+  color: #fff;
+  padding-top: 4px;
+}
+
+footer a {
+  text-decoration: none;
+  color: inherit;
+}

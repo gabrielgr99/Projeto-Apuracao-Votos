@@ -11,25 +11,6 @@ body {
   color: rgb(36, 36, 36);
 }
 
-#logo {
-  font-size: 50px;
-  font-weight: bold;
-  display: flex;
-  align-items: center;
-  color: #ffffff;
-  padding-left: 30px;
-  margin-bottom: 30px;
-  background-color: #1d1f96;
-}
-
-#logo img {
-  margin-left: 10px;
-}
-
-header h1 {
-  text-align: center;
-}
-
 article {
   display: flex;
   flex-direction: column;
@@ -56,9 +37,6 @@ article {
 }
 
 #region-bottom {
-  /* background-color: #f8f8ff; */
-  /* border: 3px solid #000277; */
-  /* border-radius: 5px; */
   padding: 5px;
   width: 900px;
   height: max-content;

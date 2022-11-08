@@ -2,22 +2,17 @@ import Candidate from "../../components/Candidate";
 import CountryPercentBar from "../../components/CountryPercentBar";
 import RegionPercentBar from "../../components/RegionPercentBar";
 import "./style.css";
-import liveIcon from "../../images/live.png";
 import RegionButton from "../../components/RegionButton";
 import data from '../../data/apuracao.json';
+import Footer from "../../components/Footer";
+import Header from "../../components/Header";
 
 export default function Main() {
   const regionNames = ['norte', 'nordeste', 'centro-oeste', 'sul', 'sudeste'];
   const { candidatos } = data.return.data;
   return (
     <div>
-      <header>
-        <div id="logo">
-          <span>BR|News</span>
-          <img src={ liveIcon } alt='live icon' height='80px' />
-        </div>
-        <h1>APURAÇÃO DOS VOTOS SEGUNDO TURNO <br /> PRESIDÊNCIA</h1>
-      </header>
+      <Header />
       <article>
         <CountryPercentBar />
         <div id="candidates">
@@ -36,7 +31,7 @@ export default function Main() {
           <RegionButton />
         </div>
       </article>
-      <footer></footer>
+      <Footer />
     </div>
   )
 }
